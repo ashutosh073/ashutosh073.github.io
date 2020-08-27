@@ -84,15 +84,15 @@
 						</div>
 					</div>
 					<div class="col-lg-7">
-						<form id="gform">
-							<label for="y-name">Your Name:</label>
-							<input type="text" id="y-name">
+						<form class="contact-form" method="POST"
+							  action="https://script.google.com/macros/s/AKfycby5qakEnxsQoOILjZ6-cCgcO3ZlfU8OA3FCu6KJ/exec">
+							<label for="y-name">Name</label>
+							<input type="text" id="y-name" name="name">
 							<label for="y-email">Email Address:</label>
-							<input type="text" id="y-email">
+							<input type="text" id="y-email" name="email">
 							<label for="y-msg">Leave A Message:</label>
-							<textarea id="y-msg"></textarea>
-							<button class="site-btn"  method="POST"
-									action="https://script.google.com/macros/s/AKfycby5qakEnxsQoOILjZ6-cCgcO3ZlfU8OA3FCu6KJ/exec">Send Us Now</button>
+							<textarea id="y-msg" name="message"></textarea>
+							<button class="site-btn">Send Us Now</button>
 						</form>
 					</div>
 				</div>
